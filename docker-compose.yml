@@ -1,0 +1,7 @@
+backend:
+  build: .
+  ports:
+    - "9292:9292"
+  volumes:
+    - .:/go/src/github.com/SociableThings/soth-gateway
+
